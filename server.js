@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.status(200).send('hello world! we are using docker');
+    res.status(200).send('hello world! We are the group 3');
 });
 
 app.listen(config.port, config.host, (e)=> {
